@@ -1,0 +1,18 @@
+section {
+    display: flex;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 90%;
+    font-size: 18px;
+}
+
+p {
+    filter: blur(4px);
+}
+
+p:hover {
+    filter: blur(0);
+}
