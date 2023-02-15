@@ -1,18 +1,8 @@
-section {
-    display: flex;
+body {
+    background-color: rgb(43, 43, 43);
+    color: rgb(225, 255, 213)
 }
 
-input {
-    border: none;
-    border-bottom: 2px solid black;
-    width: 90%;
-    font-size: 18px;
-}
-
-p {
-    filter: blur(4px);
-}
-
-p:hover {
-    filter: blur(0);
+a {
+    color: rgb(208, 255, 190)
 }
