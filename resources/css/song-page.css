@@ -1,25 +1,41 @@
+h1 {
+    text-align: center;
+}
+
 section {
     display: flex;
+    justify-content: center;
 }
 
 .exercise,
 .vocabulary {
-    flex-direction: column;
-    padding-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid rgb(212, 255, 192);
+    border-radius: 20px;
+    margin: 5% 0;
+    padding: 5%;
+}
+
+.vocabulary h3 {
+    flex-grow: 1;
+    flex-basis: 100%;
+    text-align: center;
 }
 
 input,
 textarea {
     border: none;
-    border-bottom: 2px solid rgb(212, 255, 192);
-    width: 90%;
+    width: 100%;
     font-size: 18px;
     background-color: transparent;
     color: rgb(212, 255, 192)
 }
 
-textarea {
-    border: 2px solid rgb(212, 255, 192);
+input {
+    border-bottom: 2px solid rgb(212, 255, 192);
+    margin-bottom: 2%;
 }
 
 p {
